@@ -1,6 +1,8 @@
-# Debao
+# Debian
 
-- [Debao](#debao)
+> in VMware Workstation
+
+- [Debian](#debian)
   - [sudo](#sudo)
   - [配置 NAT 虚拟机 IP](#配置-nat-虚拟机-ip)
   - [Windows 清除 ssh](#windows-清除-ssh)
@@ -9,8 +11,7 @@
   - [Docker](#docker)
   - [rust](#rust)
   - [java](#java)
-  - [Debao 使用主机代理](#debao-使用主机代理)
-  - [VMware 给 Debao 扩容](#vmware-给-debao-扩容)
+  - [Debian 使用主机代理](#debian-使用主机代理)
 
 ## sudo
 
@@ -192,7 +193,7 @@ $ sudo apt install -y openjdk-17-jdk
 $ sudo apt install maven
 ```
 
-## Debao 使用主机代理
+## Debian 使用主机代理
 
 主机 clash 开启允许局域网连接, 代理端口为 7897
 
@@ -223,7 +224,3 @@ $ unsetproxy
 [https]
 	proxy = http://192.168.8.1:7897
 ``` -->
-
-## VMware 给 Debao 扩容
-
-VMware 中拓展磁盘容量

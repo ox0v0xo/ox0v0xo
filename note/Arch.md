@@ -1,13 +1,10 @@
-# Arch in VMware
+# Arch
 
-- [Arch in VMware](#arch-in-vmware)
-  - [安装](#安装)
-    - [NAT 连接配置静态 IP](#nat-连接配置静态-ip)
-  - [Arch](#arch)
-    - [pacman](#pacman)
-    - [.bashrc](#bashrc)
-    - [misc](#misc)
-      - [ss (socket statistics)](#ss-socket-statistics)
+> in VMware Workstation
+
+- [Arch](#arch)
+  - [安装 \& NAT 配置静态 IP](#安装--nat-配置静态-ip)
+  - [.bashrc](#bashrc)
   - [记录](#记录)
     - [vim](#vim)
     - [ssh](#ssh)
@@ -20,9 +17,7 @@
     - [rust](#rust)
     - [golang](#golang)
 
-## 安装
-
-### NAT 连接配置静态 IP
+## 安装 & NAT 配置静态 IP
 
 > VMware NAT 虚拟机, 设置 IP 地址为 192.168.8.8
 
@@ -44,23 +39,7 @@ VMware Workstation: 编辑 -> 虚拟网络编辑器 -> VMnet8 -> 更改设置 ->
 
 进入 Arch Linux 后使用 archinstall 进行安装, 选择手动配置网络
 
-## Arch
-
-### pacman
-
-```shell
-# 更新系统 ; -y:标记刷新 ; -yy：标记强制刷新 ; -u：标记升级动作
-# sudo pacman -Syyu
-$ sudo pacman -Syu
-
-# 查看是否安装包 xxx ; -Q：查询本地软件包数据库
-$ sudo pacman -Q | grep xxx
-
-# 卸载软件 xxx
-$ sudo pacman -Rns xxx
-```
-
-### .bashrc
+## .bashrc
 
 ```bash
 #
@@ -83,19 +62,6 @@ alias unsetproxy='unset http_proxy; unset https_proxy'
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 export PATH=$JAVA_HOME/bin:$PATH
 # ---------- source ~/.bashrc ---------- #
-```
-
-### misc
-
-#### ss (socket statistics)
-
-```shell
-# -t : 显示TCP套接字
-# -u : 显示UDP套接字
-# -l : 显示处于监听状态的套接字
-# -n : 不解析服务名称，显示数字地址和端口号
-# -p : 显示与套接字关联的进程信息
-$ ss -tulnp
 ```
 
 ## 记录
