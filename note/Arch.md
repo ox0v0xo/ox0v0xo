@@ -16,6 +16,7 @@
       - [Maven](#maven)
     - [rust](#rust)
     - [golang](#golang)
+    - [node.js](#nodejs)
 
 ## 安装 & NAT 配置静态 IP
 
@@ -188,4 +189,12 @@ $ rustc --version
 ```shell
 $ sudo pacman -S go
 $ go version
+```
+
+### node.js
+
+```sh
+$ sudo pacman -S nodejs npm
+$ node -v
+$ npm -v
 ```
