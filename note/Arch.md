@@ -8,7 +8,6 @@
   - [记录](#记录)
     - [vim](#vim)
     - [ssh](#ssh)
-    - [git](#git)
     - [docker](#docker)
     - [python](#python)
     - [java](#java)
@@ -87,15 +86,6 @@ $ sudo vim /etc/ssh/sshd_config
 [+] PermitRootLogin yes
 
 $ sudo systemctl restart sshd
-```
-
-### git
-
-```shell
-$ sudo pacman -S git
-$ git --version
-$ git config --global user.name "ox0v0xo"
-$ git config --global user.email "ox0v0xo@outlook.com"
 ```
 
 ### docker
