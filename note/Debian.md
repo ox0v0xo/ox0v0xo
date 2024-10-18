@@ -7,11 +7,9 @@
   - [配置 NAT 虚拟机 IP](#配置-nat-虚拟机-ip)
   - [Windows 清除 ssh](#windows-清除-ssh)
   - [允许 root 登录 ssh](#允许-root-登录-ssh)
-  - [Git](#git)
   - [Docker](#docker)
   - [rust](#rust)
   - [java](#java)
-  - [Debian 使用主机代理](#debian-使用主机代理)
 
 ## sudo
 
@@ -97,19 +95,6 @@ PermitRootLogin yes
 sudo systemctl restart sshd
 ```
 
-## Git
-
-```bash
-sudo apt install git
-git config --global user.name "ox0v0xo"
-git config --global user.email "ox0v0xo@outlook.com"
-git config --global --unset http.proxy
-git config --global --unset https.proxy
-# To solve the problem: SSL certificate problem: unable to get local issuer certificate
-git config --global http.sslVerify false
-git config --list
-```
-
 ## Docker
 
 ```bash
@@ -192,35 +177,3 @@ $ sudo apt install -y openjdk-17-jdk
 # 安装 maven
 $ sudo apt install maven
 ```
-
-## Debian 使用主机代理
-
-主机 clash 开启允许局域网连接, 代理端口为 7897
-
-```shell
-# .bashrc
-
-alias setproxy='export http_proxy=http://192.168.8.1:7897; export https_proxy=http://192.168.8.1:7897'
-alias unsetproxy='unset http_proxy; unset https_proxy'
-
-# 查看是否设置成功
-$ setproxy
-$ echo $http_proxy
-$ echo $https_proxy
-$ unsetproxy
-```
-
-<!-- git 走主机代理 pull&push
-
-```.gitconfig
-[user]
-	name = ox0v0xo
-	email = ox0v0xo@outlook.com
-[http]
-	sslVerify = false
-
-[http]
-	proxy = http://192.168.8.1:7897
-[https]
-	proxy = http://192.168.8.1:7897
-``` -->
