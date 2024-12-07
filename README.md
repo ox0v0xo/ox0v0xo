@@ -1,16 +1,15 @@
-## Hi there 👋
+# Ciallo ～(∠・ω< )⌒☆
 
-<!--
-**ox0v0xo/ox0v0xo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- GitHub Profile -->
 
-Here are some ideas to get you started:
+Hi, I'm Scov!👋
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm a multifaceted individual with a passion for:
+
+- 🛡️ Cybersecurity Engineer
+
+- ✨ ACG Enthusiast
+
+Feel free to connect, collaborate, or just chat about our shared interests!
+
+Let's make the digital world a safer and more exciting place together!
