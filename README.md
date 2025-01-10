@@ -6,9 +6,11 @@ Hi, I'm Scov!👋
 
 I'm a multifaceted individual with a passion for:
 
-- 🛡️ Cybersecurity Engineer
-
 - ✨ ACG Enthusiast
+
+- ❄️ NixOS Exploration
+
+- 🛡️ Cybersecurity Engineer
 
 Feel free to connect, collaborate, or just chat about our shared interests!
 
